@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+// import ListContact from './component/ListContact';
+
+import { ListContact } from "./components";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ padding: '30px' }}>
+      <h1>this app</h1>
+      <hr></hr>
+      <ListContact></ListContact>
     </div>
   );
 }
